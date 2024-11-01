@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+}
+
+h1 {
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+nav {
+    margin-top: 0.5%;
+    margin-left: 20%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+.btn {
+    background-color: black;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(red, green, blue, alpha);
+}
+
+.cta-button {
+    margin-top: 30px;
+    background-color: #000000;
+    color: aliceblue;
+    padding: 10px 20px;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(red, green, blue, alpha);
+}
+
+#fundo {
+    background-color: rgb(248, 248, 248);
+    padding: 15%;
+    margin: 3%;
+    border: 50%;
+    border-radius: 30px;
+}
+
+img {
+    width: 40%;
+   
+}
+
+.texto {
+    margin-top: 15px;
+}
+
+.vamos {
+    background-color: white;
+    width: 11%;
+}
+
+.pandora {
+    background-color: #e6c744;
+    width: 15%;
+}
+
+footer.footer {
+    background-color: #e6c744;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+footer img {
+    width: 90px;
+    height: 40px;
+}
